@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PuzzLab | Narrative Puzzle Games</title>
+<meta name="description" content="PuzzLab is an indie games studio in the Blue Mountains building narrative-driven games.">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <img class="brand-logo" src="assets/logo.svg" alt="PuzzLab">
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#games">Games</a>
+      <a href="#studio">About Us</a>
+      <a href="#follow">Socials</a>
+    </nav>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav-mobile" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="site-nav-mobile" class="site-nav-mobile" aria-label="Primary mobile" hidden>
+    <a href="#games">Games</a>
+    <a href="#studio">About Us</a>
+    <a href="#follow">Socials</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <h1><img class="hero-logo" src="assets/logo.svg" alt="PuzzLab"></h1>
+      <p class="hero-sub">We're a small, independent games studio from the Blue Mountains, Australia with a focus on creating engaging, narrative-driven puzzle games.</p>
+
+      <div class="social-row" aria-label="PuzzLab on social media">
+        <a href="https://www.instagram.com/puzzlab" target="_blank" rel="noopener" aria-label="PuzzLab on Instagram">
+          <img src="assets/social/instagram.svg" alt="">
+        </a>
+        <a href="https://x.com/PuzzLabGames" target="_blank" rel="noopener" aria-label="PuzzLab on X">
+          <img src="assets/social/x.svg" alt="">
+        </a>
+        <a href="https://bsky.app/profile/puzzlab.com.au" target="_blank" rel="noopener" aria-label="PuzzLab on BlueSky">
+          <img src="assets/social/bluesky.svg" alt="">
+        </a>
+        <a href="https://www.youtube.com/@PuzzLabGames" target="_blank" rel="noopener" aria-label="PuzzLab on YouTube">
+          <img src="assets/social/youtube.svg" alt="">
+        </a>
+        <a href="https://discord.gg/hDP85fYRsC" target="_blank" rel="noopener" aria-label="PuzzLab on Discord">
+          <img src="assets/social/discord.svg" alt="">
+        </a>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#games">Our Games</a>
+        <a class="btn btn-ghost" href="#studio">About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMES GRID -->
+  <section id="games" class="section games-section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Our Games</h2>
+        <p>We've been busy! Take a look and read more about whichever game floats your boat.</p>
+      </div>
+
+      <div class="game-grid">
+
+        <!-- The Crimson Door -->
+        <!-- <article class="game-card game-card--crimson">
+          <img class="game-card-hero" src="assets/games/crimson-door-hero.png" alt="">
+          <div class="game-card-body">
+            <div class="game-card-top">
+              <h3>The Crimson Door</h3>
+              <span class="pill">In development</span>
+            </div>
+            <p class="game-card-blurb">Oh, you've stumbled onto something you definitely weren't meant to see. Let's keep this secret between us, hmm?</p>
+            <div class="game-card-actions">
+              <a class="link-btn link-btn--fill" href="#game-crimson-door">Learn more</a>
+              <a class="link-btn" href="#" data-placeholder="true">Steam page</a>
+            </div>
+          </div>
+        </article> -->
+
+        <!-- The Waiting -->
+        <article class="game-card game-card--waiting">
+          <img class="game-card-hero" src="assets/games/the-waiting-hero.png" alt="">
+          <div class="game-card-body">
+            <div class="game-card-top">
+              <h3>The Waiting</h3>
+              <span class="pill">In development</span>
+            </div>
+            <p class="game-card-blurb">Please make your way to the top floor. Bob is waiting for you.</p>
+            <div class="game-card-actions">
+              <a class="link-btn link-btn--fill" href="#game-the-waiting">Learn more</a>
+              <a class="link-btn" href="https://store.steampowered.com/app/3898910/The_Waiting/" target="_blank">Steam page</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Detective Ridelle -->
+        <article class="game-card game-card--ridelle">
+          <img class="game-card-hero" src="assets/games/detective-ridelle-hero.png" alt="">
+          <div class="game-card-body">
+            <div class="game-card-top">
+              <h3>Detective Ridelle</h3>
+              <span class="pill">Out now!</span>
+            </div>
+            <p class="game-card-blurb">A cozy murder mystery game featuring escape room style puzzles. Find clues, interrogate suspects, solve the mystery - before it's too late.</p>
+            <div class="game-card-actions">
+              <a class="link-btn link-btn--fill" href="#game-detective-ridelle">Learn more</a>
+              <a class="link-btn" href="https://store.steampowered.com/app/2172490/Detective_Ridelle/" target="_blank">Steam page</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- The DeCrypt Files -->
+        <article class="game-card game-card--decrypt">
+          <img class="game-card-hero" src="assets/games/decrypt-files-hero.png" alt="">
+          <div class="game-card-body">
+            <div class="game-card-top">
+              <h3>The DeCrypt Files</h3>
+              <span class="pill">Out now!</span>
+            </div>
+            <p class="game-card-blurb">A detective puzzle book featuring over 50 puzzles. A nefarious individual named Dr DeCrypt is on a crime spree! Can you bring him to justice?</p>
+            <div class="game-card-actions">
+              <a class="link-btn link-btn--fill" href="#game-decrypt-files">Learn more</a>
+              <a class="link-btn" href="https://amzn.asia/d/0eOg85tY" target="_blank">Amazon page</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- THE CRIMSON DOOR — full section -->
+  <!-- <section id="game-crimson-door" class="game-detail game-detail--crimson">
+    <div class="wrap">
+      <img class="game-detail-hero" src="assets/games/crimson-door-hero.png" alt="">
+      <img class="game-detail-logo" src="assets/games/crimson-door-logo.svg" alt="The Crimson Door">
+      <div class="game-detail-top">
+        <span class="pill">In development</span>
+      </div>
+
+      <div class="game-detail-actions">
+        <a class="btn btn-primary" href="#" target="_blank" rel="noopener" data-placeholder="true">Steam page</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-placeholder="true">Press Kit</a>
+      </div>
+      <div class="game-detail-summary">
+        <p>Nice try.</p>
+        <p>.</p>
+      </div>
+
+      <h3 class="game-detail-sub">Trailer</h3>
+      <div class="trailer-frame">
+            <iframe src="https://www.youtube.com/embed/ZTRkAttOvJw?si=Fu-5sL5vU5D4o74w" 
+                    title="The Crimson Door trailer" allowfullscreen></iframe>
+          </div>
+
+      <h3 class="game-detail-sub">Gallery</h3>
+      <div class="gallery-grid">
+        <a href="assets/games/crimson-door-gallery-1.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-1.png" alt=""></a>
+        <a href="assets/games/crimson-door-gallery-2.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-2.png" alt=""></a>
+        <a href="assets/games/crimson-door-gallery-3.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-3.png" alt=""></a>
+        <a href="assets/games/crimson-door-gallery-4.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-4.png" alt=""></a>
+        <a href="assets/games/crimson-door-gallery-5.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-5.png" alt=""></a>
+        <a href="assets/games/crimson-door-gallery-6.png" target="_blank" rel="noopener"><img src="assets/games/crimson-door-gallery-6.png" alt=""></a>
+      </div>
+
+      <a class="back-link" href="#games">&larr; Back to all games</a>
+    </div>
+  </section> -->
+
+  <!-- THE WAITING — full section -->
+  <section id="game-the-waiting" class="game-detail game-detail--waiting">
+    <div class="wrap">
+      <img class="game-detail-hero" src="assets/games/the-waiting-hero.png" alt="">
+      <img class="game-detail-logo" src="assets/games/the-waiting-logo.svg" alt="The Waiting">
+      <div class="game-detail-top">
+        <span class="pill">In development</span>
+      </div>
+
+      <div class="game-detail-actions">
+        <a class="btn btn-primary" href="https://store.steampowered.com/app/3898910/The_Waiting/" target="_blank" rel="noopener">Steam page</a>
+        <!-- <a class="btn btn-ghost" href="#" target="_blank" rel="noopener" data-placeholder="true">Press Kit</a> -->
+      </div>
+      <div class="game-detail-summary">
+        <p>You wake up in an office building with no idea who you are or why you're there. All you know is that Bob is waiting for you on the top floor.</p>
+        <p>Climb one floor at a time, delving deeper into this strange and ever-changing world as you uncover the mystery of the tower, solve an unforgiving stream of puzzles and face moral dilemmas.</p>
+        <p>You will be tested.</p>
+        <p><i>The Waiting is developed with assistance from Screen NSW.</i></p>
+      </div>
+
+      <h3 class="game-detail-sub">Trailer</h3>
+      <div class="trailer-frame">
+            <iframe src="https://www.youtube.com/embed/ZTRkAttOvJw?si=Fu-5sL5vU5D4o74w" 
+                    title="The Waiting trailer" allowfullscreen></iframe>
+          </div>
+
+      <h3 class="game-detail-sub">Gallery</h3>
+      <div class="gallery-grid">
+        <a href="assets/games/the-waiting-gallery-1.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-1.png" alt=""></a>
+        <a href="assets/games/the-waiting-gallery-2.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-2.png" alt=""></a>
+        <a href="assets/games/the-waiting-gallery-3.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-3.png" alt=""></a>
+        <a href="assets/games/the-waiting-gallery-4.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-4.png" alt=""></a>
+        <a href="assets/games/the-waiting-gallery-5.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-5.png" alt=""></a>
+        <a href="assets/games/the-waiting-gallery-6.png" target="_blank" rel="noopener"><img src="assets/games/the-waiting-gallery-6.png" alt=""></a>
+      </div>
+
+      <a class="back-link" href="#games">&larr; Back to all games</a>
+    </div>
+  </section>
+
+  <!-- DETECTIVE RIDELLE — full section -->
+  <section id="game-detective-ridelle" class="game-detail game-detail--ridelle">
+    <div class="wrap">
+      <img class="game-detail-hero" src="assets/games/detective-ridelle-hero.png" alt="">
+      <img class="game-detail-logo" src="assets/games/detective-ridelle-logo.svg" alt="Detective Ridelle">
+      <div class="game-detail-top">
+        <span class="pill">Out now!</span>
+      </div>
+
+      <div class="game-detail-actions">
+        <a class="btn btn-primary" href="https://store.steampowered.com/app/2172490/Detective_Ridelle/" target="_blank" rel="noopener">Steam page</a>
+        <a class="btn btn-ghost" href="https://drive.google.com/file/d/1BHJkxiWRK9STduwrB894VQwya1ecy9Qn/view?usp=sharing" target="_blank" rel="noopener">Press Kit</a>
+      </div>
+      <div class="game-detail-summary">
+        <p>Ridelle receives an anonymous letter inviting her on a luxury train. On board, she's already suspicious - but when someone is found <i>dead</i> it's up to her to catch the killer.</p>
+        <p>Detective Ridelle is a first-person puzzle game with visual novel style storytelling. Explore a unique, handcrafted world filled with suspects, clues, and hidden secrets. Can you uncover the truth and bring the killer to justice?</p>
+      </div>
+
+      <h3 class="game-detail-sub">Trailer</h3>
+      <div class="trailer-frame">
+            <iframe src="https://www.youtube.com/embed/mpX4sspXb6k?si=soVU3ZXE44lQb3Ok" 
+                    title="Detective Ridelle trailer" allowfullscreen></iframe>
+          </div>
+      <h3 class="game-detail-sub">Gallery</h3>
+      <div class="gallery-grid">
+        <a href="assets/games/detective-ridelle-gallery-1.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-1.png" alt=""></a>
+        <a href="assets/games/detective-ridelle-gallery-2.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-2.png" alt=""></a>
+        <a href="assets/games/detective-ridelle-gallery-3.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-3.png" alt=""></a>
+        <a href="assets/games/detective-ridelle-gallery-4.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-4.png" alt=""></a>
+        <a href="assets/games/detective-ridelle-gallery-5.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-5.png" alt=""></a>
+        <a href="assets/games/detective-ridelle-gallery-6.png" target="_blank" rel="noopener"><img src="assets/games/detective-ridelle-gallery-6.png" alt=""></a>
+      </div>
+
+      <a class="back-link" href="#games">&larr; Back to all games</a>
+    </div>
+  </section>
+
+    <!-- DECRYPT FILES — full section -->
+  <section id="game-decrypt-files" class="game-detail game-detail--decrypt">
+    <div class="wrap">
+      <img class="game-detail-hero" src="assets/games/decrypt-files-hero.png" alt="">
+      <img class="game-detail-logo" src="assets/games/decrypt-files-logo.svg" alt="The DeCrypt Files">
+      <div class="game-detail-top">
+        <span class="pill">Out now!</span>
+      </div>
+      <div class="game-detail-actions">
+        <a class="btn btn-primary" href="https://amzn.asia/d/0eOg85tY" target="_blank" rel="noopener">Amazon page</a>
+        <a class="btn btn-ghost" href="https://puzzlab.itch.io/decrypt-files-solution-checker" target="_blank" rel="noopener">Solution Validator</a>
+      </div>
+      <div class="game-detail-summary">
+        <p>Welcome to Noir City, where a nefarious mastermind known as Dr DeCrypt has just announced his boldest scheme yet: one theft a day, every day, for fifty days straight. He's cocky enough to leave clues behind each time. That's where you come in.</p>
+        <p>As a Noir City detective, it's your job to follow every clue, crack over fifty hand-illustrated puzzles, recover what's been stolen, and finally bring Dr DeCrypt to justice. Every puzzle in the book was designed and illustrated by a real escape room designer.</p>
+      </div>
+
+      <h3 class="game-detail-sub">Gallery</h3>
+      <div class="gallery-grid">
+        <a href="assets/games/decrypt-files-gallery-1.png" target="_blank" rel="noopener"><img src="assets/games/decrypt-files-gallery-1.png" alt=""></a>
+        <a href="assets/games/decrypt-files-gallery-2.png" target="_blank" rel="noopener"><img src="assets/games/decrypt-files-gallery-2.png" alt=""></a>
+        <a href="assets/games/decrypt-files-gallery-3.png" target="_blank" rel="noopener"><img src="assets/games/decrypt-files-gallery-3.png" alt=""></a>
+      </div>
+      <a class="back-link" href="#games">&larr; Back to all games</a>
+    </div>
+  </section>
+
+  <!-- STUDIO -->
+  <section id="studio" class="section studio-section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Our Studio</h2>
+      </div>
+      <div class="studio-inner">
+        <div class="studio-copy">
+          <p>Hi, I'm Josh! My background's in escape room design, and I studied video game design and development at university. PuzzLab began during COVID as a way to bring escape rooms online so friends could keep playing together - and it grew from there into its own indie games studio.</p>
+          <p>Our goal is simple! Make the games we want to play, with satisfying puzzles and bloody good stories.</p>
+        </div>
+        <img class="studio-photo" src="assets/studio-photo.jpg" alt="The PuzzLab team">
+      </div>
+    </div>
+  </section>
+
+  <!-- FOLLOW -->
+  <section id="follow" class="section follow-section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Follow Us</h2>
+        <p>Keep in touch and be the first to see what we're up to next.</p>
+      </div>
+      <div class="follow-actions">
+        <a class="btn btn-primary" href="#main" rel="noopener">Our Socials</a>
+        <a class="btn btn-ghost" href="https://discord.gg/hDP85fYRsC" target="_blank" rel="noopener">Join our Discord</a>
+      </div>
+      <p class="follow-email">Or email us at <a href="mailto:josh@puzzlab.com.au">josh@puzzlab.com.au</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img class="footer-logo" src="assets/logo.svg" alt="PuzzLab">
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> PuzzLab Pty Ltd.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
